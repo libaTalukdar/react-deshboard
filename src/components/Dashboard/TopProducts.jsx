@@ -1,9 +1,10 @@
 import React from "react";
 // import { topProductsData } from "../../data/index";
-import LineGraph from "../chart/lineChart";
+// import LineGraph from "../chart/lineChart";
 import ContentHeader from "../ContentHeader";
 import WrapperDiv from "./WrapperDiv";
 import { topProductsData } from "../../Data";
+import ChartComponent from "../chart/lineChart";
 
 const ProductsDetails = () => {
   const tableHead = ["#", "Name", "Popularity", "Sales"];
@@ -60,8 +61,8 @@ const CustomerFulfillment = () => {
     <div className="w-full p-4">
       <ContentHeader title="Customer Fulfillment" />
       <div className="w-full ">
-       
-        <LineGraph />
+       <ChartComponent/>
+        {/* <LineGraph /> */}
       </div>
       <div className="flex items-center lg:flex lg:items-center justify-between pt-2 mt-2 border-t border-grayText/20 ">
         <div>
