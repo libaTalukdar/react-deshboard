@@ -4,7 +4,7 @@ import React from "react";
 import ContentHeader from "../ContentHeader";
 import WrapperDiv from "./WrapperDiv";
 import { topProductsData } from "../../Data";
-import ChartComponent from "../chart/lineChart";
+import ChartComponent from "../Chart/LineChart";
 
 const ProductsDetails = () => {
   const tableHead = ["#", "Name", "Popularity", "Sales"];
